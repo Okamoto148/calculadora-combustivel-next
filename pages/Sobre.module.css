@@ -1,0 +1,19 @@
+.sobre{
+  display: flex;
+}
+
+.sobre2{
+  font-size: 25px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+@media(max-width: 600px){
+  .sobre{
+    flex-direction: column;
+  }
+
+  .sobre2{
+  width: 100%;
+}
+}

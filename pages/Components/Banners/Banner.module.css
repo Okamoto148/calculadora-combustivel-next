@@ -1,0 +1,38 @@
+
+
+.blogsobre{
+  background-color: lightgray;
+  height: 40%;
+  margin: 30px;
+  width: 40%;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.botao{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 17px;
+  width: 130px;
+  height: 50px;
+}
+
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+
+@media(max-width: 600px){
+  .blogsobre{
+    width: 70%;
+    font-size: 30px;
+  }
+
+  .desktop{
+    display: none;
+  }
+}

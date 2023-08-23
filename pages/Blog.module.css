@@ -1,0 +1,52 @@
+.link:hover{
+  text-decoration: none
+}
+
+.blog{
+  margin: 70px;
+  display: flex;
+  width: 90%;
+}
+
+.blog3{
+  margin: -70px 70px 70px 70px;
+  display: flex;
+  width: 90%;
+}
+
+.blog2{
+  display: flex;
+  height: auto;
+  width: 33%;
+  margin: 12px;
+  flex-direction: column;
+}
+
+.equacao2{
+  margin-left: 27px
+}
+
+@media(max-width: 800px){
+  .blog{
+    flex-direction: column;
+    margin: 20px;
+  }
+
+    .blog3{
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .blog2{
+      flex-direction: column;
+      width: 100%;
+      margin: 12px;
+  }
+
+  .equacao{
+    font-size: 20px;
+  }
+
+
+}
+

@@ -1,0 +1,78 @@
+.header{
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  padding-top: 40px;
+}
+
+.container{
+  display:flex;
+  width: 100%;
+
+}
+
+.figura{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figura2{
+  margin-left: 20px;
+}
+
+.figura3{
+  height: 370px;
+}
+
+.figura4{
+  height: 290px;
+}
+
+.botao{
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -50px;
+}
+
+.botao2{
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -50px;
+}
+
+
+
+
+
+@media(max-width:800px){
+ .figura3{
+   height: 160px;
+ }
+
+  .figura4{
+    height: 90px;
+  }
+
+  .botao{
+  width: 90%;
+}
+
+  .botao2{
+  width: 90%;
+  font-size: 12px;
+  height: 35px;
+}
+     
+}
+
+
+
