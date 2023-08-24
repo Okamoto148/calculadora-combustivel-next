@@ -11,6 +11,7 @@ import HeaderSite from './Components/HeaderSite';
 import styles from '../styles/Home.module.css';
 
 const Home = () =>{
+  //data
   const [selectCalculadora, setSelectCalculadora] = useState("Etanol");
     const [altura, setAltura]=useState('');
     const [peso, setPeso]=useState('');
@@ -139,6 +140,8 @@ const Home = () =>{
       <Helmet>
         <meta name="description" content="Calcule aqui qual combustível é o mais vantajoso (etanol ou gasolina), o rendimento do carro em km/l ou o custo do combustível para uma viagem." />
         <link rel="icon" href="./img/combustivel.png" />
+
+
     </Helmet>
     <main className={styles.main}>
        <HeaderSite handleDrawerToggle={e=>{setMobileOpen(true)}} mobileOpen={mobileOpen}/>
