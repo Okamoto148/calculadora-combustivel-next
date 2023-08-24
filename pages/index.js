@@ -9,6 +9,7 @@ import Banner from './Components/Banners/Banner';
 import {Helmet} from "react-helmet";
 import HeaderSite from './Components/HeaderSite';
 import styles from '../styles/Home.module.css';
+import Script from 'next/script';
 
 const Home = () =>{
   //data
@@ -140,9 +141,18 @@ const Home = () =>{
       <Helmet>
         <meta name="description" content="Calcule aqui qual combustível é o mais vantajoso (etanol ou gasolina), o rendimento do carro em km/l ou o custo do combustível para uma viagem." />
         <link rel="icon" href="./img/combustivel.png" />
-
-
     </Helmet>
+
+         <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JHMFW3LC9" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-9JHMFW3LC9');
+        `}
+      </Script>
     <main className={styles.main}>
        <HeaderSite handleDrawerToggle={e=>{setMobileOpen(true)}} mobileOpen={mobileOpen}/>
       
