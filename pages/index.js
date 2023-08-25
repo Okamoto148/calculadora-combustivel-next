@@ -153,6 +153,14 @@ const Home = () =>{
           gtag('config', 'G-9JHMFW3LC9');
         `}
       </Script>
+
+      <Script
+   id="Adsense-id"
+   data-ad-client="ca-pub-1069552857765335"
+   async
+   strategy="beforeInteractive"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+/>
     <main className={styles.main}>
        <HeaderSite handleDrawerToggle={e=>{setMobileOpen(true)}} mobileOpen={mobileOpen}/>
       
@@ -192,6 +200,8 @@ const Home = () =>{
       </div>
         </form>}
       <div className={styles.freepik}><a href="https://br.freepik.com/vetores-gratis/conceito-de-nutricionista-terapia-nutricional-com-alimentacao-saudavel-e-atividade-fisica-programa-de-perda-de-peso-e-conceito-de-dieta-ilustracao-vetorial-em-estilo-cartoon_26432857.htm#query=perda%20de%20peso&position=16&from_view=search">Image by vector4stock</a> on <a href="https://br.freepik.com/">Freepik</a></div>
+
+      
 
       <section style={{margin: '5%', fontSize: '20px'}}>
         <h2>Calculadora de combustível gasolina x etanol</h2>
