@@ -139,6 +139,8 @@ const Home = () =>{
     <>
 
       <Helmet>
+  <title>Calculadora de Combustível</title>
+         <meta property='og:title' content='Calculadora de Combustível' />
         <meta name="description" content="Calcule aqui qual combustível é o mais vantajoso (etanol ou gasolina), o rendimento do carro em km/l ou o custo do combustível para uma viagem." />
         <link rel="icon" href="./img/combustivel.png" />
     </Helmet>
