@@ -19,7 +19,7 @@ import Link from 'next/link';
 import Menu from './Menu'
 
 const drawerWidth = 240;
-const navItems = ['Home', 'sobre', 'calculadora', 'blog'];
+const navItems = ['Home', 'sobre', 'calculadora', 'blog','contato'];
 
 function DrawerAppBar(props, {handleDrawerToggle, mobileOpen=false}) {
   const { window } = props;
