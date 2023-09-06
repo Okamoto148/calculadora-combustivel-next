@@ -16,7 +16,8 @@ import Button from '@mui/material/Button';
 import {useState} from 'react';
 import LocalGasStationIcon from '@mui/icons-material/LocalGasStation';
 import Link from 'next/link';
-import Menu from './Menu'
+import Menu from './Menu';
+import Image from 'next/image';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'sobre', 'calculadora', 'blog','contato'];
@@ -56,7 +57,16 @@ function DrawerAppBar(props, {handleDrawerToggle, mobileOpen=false}) {
 
           <div className={styles.menu}><Menu /></div>
 
-          <img src='./img/bombadegasolina.png' alt='' height='35'/>
+                  <Image
+      src="/img/bombadegasolina.png"
+                    height={35}
+                    width={35}
+            
+
+      alt="completa"
+    />
+
+         
           <Typography
             variant="h6"
             component="div"
