@@ -3,4 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
+module.exports = {
+  compress: true,
+}
+
 module.exports = nextConfig
