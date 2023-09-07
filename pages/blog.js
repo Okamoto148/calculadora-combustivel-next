@@ -2,7 +2,8 @@ import styles from './Blog.module.css';
 import Banner2 from './Components/Banners/Banner2';
 import HeaderSite from './Components/HeaderSite';
 import {useState} from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
+import Footer from './Components/Footer';
 
 export default function Blog(){
   const [mobileOpen,setMobileOpen]=useState(false);
@@ -29,6 +30,8 @@ export default function Blog(){
         <div style={{fontSize: '25px', padding: '20px 0'}}><Link href='/seis_dicas_para_economizar_gasolina' className={styles.link}>Seis dicas para economizar gasolina</Link></div>
       </div>
     </section>
+    <Footer/>
+    
 
 
 

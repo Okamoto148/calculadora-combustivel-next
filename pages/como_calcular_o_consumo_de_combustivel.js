@@ -3,6 +3,8 @@ import BannerBlog1 from './Components/Banners/BannerBlog1';
 import Link from 'next/link';
 import Typography from '@mui/material/Typography';
 import HeaderSite from './Components/HeaderSite';
+import Footer from './Components/Footer';
+
 
 export default function BlogPost2(){
 
@@ -141,6 +143,8 @@ export default function BlogPost2(){
       <p>O cálculo do rendimento do carro é uma ótima forma para se fazer o planejamento de gastos de combustível. Seu cálculo é feito de forma fácil e basta somente seguir as instruções descritas e dividir a distância percorrida em quilômetros e o consumo em litros do combustível.</p>
       <p>Para facilitar o cálculo use nossa <Link href='/#calculadora'>calculadora</Link>. Lá também é possível descobrir qual combustível é mais vantajoso e o gasto em combustível de uma viagem.</p>
       </section>
+
+    <Footer/>
 
    
   </>

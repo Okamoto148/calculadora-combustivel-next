@@ -3,6 +3,7 @@ import BannerBlog1 from './Components/Banners/BannerBlog1';
 import  Link  from "next/link";
 import Typography from '@mui/material/Typography';
 import HeaderSite from './Components/HeaderSite';
+import Footer from './Components/Footer';
 
 export default function BlogPost3(){
 
@@ -54,6 +55,7 @@ export default function BlogPost3(){
         <p>Quer saber uma forma de calcular seus gastos com combustível? Use nossa <Link href='/'>calculadora</Link></p>
         
       </section>
+    <Footer/>
 
    
   </>

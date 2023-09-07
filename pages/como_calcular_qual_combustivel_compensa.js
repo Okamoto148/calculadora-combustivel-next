@@ -1,6 +1,7 @@
 import BannerBlog1 from './Components/Banners/BannerBlog1';
 import Link from 'next/link';
 import HeaderSite from './Components/HeaderSite';
+import Footer from './Components/Footer';
 
 export default function BlogPost1(){
 
@@ -56,6 +57,7 @@ export default function BlogPost1(){
       <p>Se a preocupação for com o meio ambiente, sem dúvidas a melhor escolha é o etanol, que além de ser uma fonte renovável emite menos poluentes na atmosfera.</p>
       <p>Quer fazer o cálculo automático dos combustíveis? Clique <Link href='/'>aqui</Link> e use nossa calculadora.</p>
       </section>
+    <Footer/>
   </>
     
   )

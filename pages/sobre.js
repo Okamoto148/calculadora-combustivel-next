@@ -3,6 +3,7 @@ import Link from 'next/link';
 import BannerSobre from './Components/Banners/BannerSobre';
 import {useState} from 'react';
 import styles from './Sobre.module.css';
+import Footer from './Components/Footer';
 
 const Sobre = () => {
 //data
@@ -29,6 +30,7 @@ const Sobre = () => {
             
             </div>
         </div>
+        <Footer />
 
         </>
     );

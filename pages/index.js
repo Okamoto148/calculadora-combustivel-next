@@ -10,6 +10,7 @@ import {Helmet} from "react-helmet";
 import HeaderSite from './Components/HeaderSite';
 import styles from '../styles/Home.module.css';
 import Script from 'next/script';
+import Footer from './Components/Footer';
 
 const Home = () =>{
   //data
@@ -206,14 +207,14 @@ const Home = () =>{
       
 
       <section style={{margin: '5%', fontSize: '20px'}}>
-        <h2>Calculadora de combustível gasolina x etanol</h2>
+        <h2 style={{color: '#1976d5'}}>Calculadora de combustível gasolina x etanol</h2>
         <p>Esta calculadora é muito útil para saber qual combustível compensa mais, trazendo economia. Para usá-la é muito simples. Basta colocar o valor na bomba da gasolina e do etanol, clicar em calcular e a calculadora dará a melhor opção de abastecimento.</p>
         <p>A gasolina tem a vantagem de render mais, por isso muitas vezes, mesmo o preço sendo maior vale mais abastecer com gasolina. Por outro lado o etanol, além de ser mais barato ele aumenta um pouco a potência do motor. </p>
         <p>A calculadora foi feita baseada em estudos mais recentes realizados pelo <a href='https://autopapo.uol.com.br/noticia/porcentagem-gasolina-ou-etanol/' target='_blank'>Instituto Mauá de Tecnologia</a>  que foi levado em consideração a mistura da gasolina com o etanol atual de 27% e a proporção máxima recomendada é de 73%. A antiga conta de 70%, ou 0,7, levava em consideração a mistura da gasolina que era de 22%.  </p>
       </section>
 
        <section style={{margin: '5%', fontSize: '20px'}}>
-        <h2>Calculadora de combustível por km para cada litro</h2>
+        <h2 style={{color: '#1976d5'}}>Calculadora de combustível por km para cada litro</h2>
         <p>Esta calculadora facilita na hora de descobrir o rendimento do carro em km/l. Para empregar a calculadora primeiro faça os seguintes passos:</p>
          <ul>
           <li>Complete o tanque com o combustível que quer descobrir o rendimento, se tiver misturado o cálculo não dará certo.</li>
@@ -226,15 +227,16 @@ const Home = () =>{
       </section>
 
       <section style={{margin: '5%', fontSize: '20px'}}>
-        <h2>Calculadora de consumo de combustível</h2>
+        <h2 style={{color: '#1976d5'}}>Calculadora de consumo de combustível</h2>
         <p>Esta calculadora serve para dois momentos, quando quer descobrir quanto se gasta numa viagem com combustível ou quando se quer descobrir quantos quilômetros é possível andar com um valor fixo, por exemplo R$ 300,00. A explicação do uso das duas calculadoras estão abaixo.</p>
 
-        <h3 style={{color: 'darkgray', marginBottom: '-10px'}}>Calculadora de consumo de combustível (também para viagens)</h3>
+        <h3 style={{ marginBottom: '-10px'}}>Calculadora de consumo de combustível (também para viagens)</h3>
         <p>Para descobrir o custo do consumo de combustível  basta selecionar a calculadora Consumo e depois colocar os dados solicitados nas áreas em questão e clicar em calcular.</p>
-        <h3 style={{color: 'darkgray', marginBottom: '-10px'}}>Calculadora distância com custo fixo</h3>
+        <h3 style={{ marginBottom: '-10px'}}>Calculadora distância com custo fixo</h3>
         <p>Para descobrir a distância percorrida com um valor fixo, selecione a calculadora viagem depois clique no botão interruptor abaixo do botão da gasolina x etanol. Depois coloque os valores nos locais indicados e apertar em calcular.</p>
        
       </section>
+      <Footer />
       
     </main>
       
