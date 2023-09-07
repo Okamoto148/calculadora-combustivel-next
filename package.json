@@ -13,7 +13,6 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.3",
     "@mui/material": "^5.14.5",
-    "@next/bundle-analyzer": "^13.4.19",
     "next": "^13.4.9",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
