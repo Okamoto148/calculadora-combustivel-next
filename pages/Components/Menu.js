@@ -40,7 +40,7 @@ export default function BasicMenu() {
         <MenuItem onClick={handleClose}><Link style={{textDecoration: 'none'}} href='/'>HOME</Link></MenuItem>
         <MenuItem onClick={handleClose}><Link style={{textDecoration: 'none'}} href='/sobre'>SOBRE</Link></MenuItem>
         <MenuItem onClick={handleClose}><Link style={{textDecoration: 'none'}} href='/#calculadora'>CALCULADORA</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{textDecoration: 'none'}} href='/blog'>BLOG</Link></MenuItem>
+        
         <MenuItem onClick={handleClose}><Link style={{textDecoration: 'none'}} href='/contato'>CONTATO</Link></MenuItem>
       </Menu>
     </div>
